@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let jokesArray = [
+    private let jokesArray = [
         Joke(
             setup: "Why don't scientists trust atoms?",
             punchline: "Because they make up everything!",
